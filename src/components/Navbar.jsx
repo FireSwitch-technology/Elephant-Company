@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="fixed top-10 right-0 w-full z-40">
       <div className="  max-w-6xl p-3 mx-auto rounded-full shadow-lg bg-black/20 backdrop-blur-2xl flex justify-between items-center">
         <NavLink
-          to="/home"
+          to="/"
           className={({ isActive }) => (isActive ? activeLink : normalLink)}
         >
           <div className="flex justify-center items-center">
