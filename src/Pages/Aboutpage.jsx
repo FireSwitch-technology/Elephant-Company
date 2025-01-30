@@ -3,6 +3,7 @@ import vector from "../assets/vec2.png";
 import vector2 from "../assets/vec3.png";
 import vector3 from "../assets/vec4.png";
 import Meetceo from "../components/Meetceo.jsx";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Aboutpage = () => {
   const aboutcontent = [
@@ -48,8 +49,12 @@ const Aboutpage = () => {
   ];
   return (
     <div className="bg-gray-100  ">
-      <div className="max-w-5xl mx-auto p-5 ">
-        <p className="text-black mb-5">Home - About </p>
+      <div className="max-w-5xl mx-auto p-5 pt-44  ">
+        <p className="p-5 font-normal text-xl text-blue-100 flex justify-baseline items-center">
+          Home
+          <IoIosArrowForward />{" "}
+          <span className=" text-black font-bold text-xl">About</span>{" "}
+        </p>
         <div className=" flex flex-col lg:flex lg:flex-row gap-10 justify-center items-center  ">
           {aboutcontent.slice(0, 2).map(({ id, Texth1, Textp }) => (
             <div key={id} className="bg-white rounded-2xl shadow-lg p-6">

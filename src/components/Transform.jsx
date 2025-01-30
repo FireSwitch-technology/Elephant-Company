@@ -1,11 +1,18 @@
 import React from "react";
-import image from "../assets/transformimg.png";
+
+import downtown from "../assets/Downtown.mp4";
 
 const Transform = () => {
   return (
     <div className="bg-gray-100 py-12 w-full h-fit ">
       <div className="relative">
-        <img src={image} alt="" className="w-full h-[600px] object-cover" />
+        <video
+          src={downtown}
+          autoPlay
+          loop
+          muted
+          className="w-full h-[600px] object-cover"
+        />
 
         {/* downBox */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white p-8 w-full sm:w-2xl rounded-2xl gap-5 text-center shadow-md z-10">
