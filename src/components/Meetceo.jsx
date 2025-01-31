@@ -10,8 +10,8 @@ const Meetceo = () => {
   ];
   return (
     <div>
-      <div className="bg-white py-12 flex flex-col items-center">
-        <h1 className=" font-bold text-3xl sm:text-5xl font-display leading-16">
+      <div className="bg-white py-14 flex flex-col items-center">
+        <h1 className=" font-bold text-3xl sm:text-5xl font-display mb-10">
           Meet Our CEO
         </h1>
         <div className="px-6 max-w-4xl ">
@@ -21,7 +21,9 @@ const Meetceo = () => {
               className=" flex flex-col lg:flex lg:flex-row gap-17 justify-center items-center "
             >
               <img src={Image} alt="" className="w-[243px] " />
-              <p className=" text-xl font-display font-normal  ">{Text} </p>
+              <p className=" text-base sm:text-xl font-display font-normal  ">
+                {Text}{" "}
+              </p>
             </div>
           ))}
         </div>

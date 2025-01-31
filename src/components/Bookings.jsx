@@ -2,9 +2,9 @@ import React from "react";
 
 const Bookings = () => {
   return (
-    <div className="bg-gray-100 pt-12">
+    <div className="bg-gray-100 pt-12 px-4">
       <div className=" flex flex-col justify-center items-center m-auto py-20">
-        <h1 className=" font-bold font-display text-5xl leading-16">Booking</h1>
+        <h1 className=" font-bold font-display text-5xl mb-10">Booking</h1>
         <div className=" max-w-4xl  grid grid-cols-1 gap-10   ">
           <div className=" grid grid-cols-1 lg:grid-cols-2  justify-between items-center gap-10 ">
             <input
