@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import servicedata from "../Data/servicedata";
 import video1 from "../assets/materials/homereno.mp4";
 import video2 from "../assets/materials/plastering.mp4";
 import video3 from "../assets/materials/interior.mp4";
@@ -54,7 +53,7 @@ const Ourservice = () => {
               key={id}
               data-aos="zoom-in"
               data-aos-delay="200"
-              className=" relative w-[450px] h-[500px] rounded-3xl "
+              className=" relative max-w-[450px] sm:w-[450px] h-[500px] rounded-3xl "
             >
               <div className="absolute  top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50 rounded-3xl"></div>
               <video
