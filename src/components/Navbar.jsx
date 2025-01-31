@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-10 right-0 w-full z-40">
-      <div className="  max-w-6xl p-3 px-4 mx-auto rounded-full shadow-lg bg-black/20 backdrop-blur-2xl flex justify-between items-center">
+      <div className="  max-w-6xl p-3 px-4 mx-auto rounded-full shadow-lg bg-black/20 backdrop-blur-3xl flex justify-between items-center">
         <NavLink
           to="/"
           className={({ isActive }) => (isActive ? activeLink : normalLink)}
