@@ -147,7 +147,7 @@ const Navbar = () => {
       </div>
       {/* OVERLAY */}
       <div
-        className={`fixed top-0 right-0 bg-black/20 backdrop-blur-md bg-opacity-50 transition-all duration-300 ease-in-out z-10 sm:hidden ${
+        className={`fixed top-0 right-0 bg-black/30 backdrop-blur-3xl bg-opacity-50 transition-all duration-300 ease-in-out z-10 sm:hidden ${
           isOpen ? "w-1/2 h-full" : "w-0 h-0"
         }`}
         onClick={closeMenu}
