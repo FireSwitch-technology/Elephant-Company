@@ -1,10 +1,9 @@
 import React from "react";
-
 import downtown from "../assets/Downtown.mp4";
 
 const Transform = () => {
   return (
-    <div className="bg-gray-100 py-12 w-full h-fit ">
+    <div className="bg-gray-100 py-12 w-full h-fit">
       <div className="relative">
         <video
           src={downtown}
@@ -23,9 +22,6 @@ const Transform = () => {
             Let Elephant Solutions take care of all your home and business
             improvement needs with expertise you can trust.
           </p>
-          <button className="rounded-xl px-3 py-1 bg-blue-100 text-white">
-            Get in touch
-          </button>
         </div>
       </div>
     </div>

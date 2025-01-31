@@ -1,5 +1,4 @@
 import React from "react";
-// import { IoIosArrowForward } from "react-icons/io";
 import vecBas from "../assets/vecBas.png";
 import vecReno from "../assets/vecReno.png";
 import vecMat from "../assets/vecMat.png";
