@@ -3,7 +3,6 @@ import vector from "../assets/vec2.png";
 import vector2 from "../assets/vec3.png";
 import vector3 from "../assets/vec4.png";
 import Meetceo from "../components/Meetceo.jsx";
-import { IoIosArrowForward } from "react-icons/io";
 
 const Aboutpage = () => {
   const aboutcontent = [
@@ -49,12 +48,15 @@ const Aboutpage = () => {
   ];
   return (
     <div className="bg-gray-100  ">
-      <div className="max-w-5xl mx-auto p-5 pt-44  ">
-        <p className="p-5 font-normal text-xl text-blue-100 flex justify-baseline items-center">
-          Home
-          <IoIosArrowForward />{" "}
-          <span className=" text-black font-bold text-xl">About</span>{" "}
-        </p>
+      <div className="max-w-6xl mx-auto p-6 pt-44  ">
+        {/*  */}
+        <div className="mb-4 text-sm text-gray-600">
+          <a href="/" className="text-blue-500 hover:underline">
+            Home
+          </a>{" "}
+          &gt; <span className="font-bold">About</span>
+        </div>
+        {/*  */}
         <div className=" flex flex-col lg:flex lg:flex-row gap-10 justify-center items-center  ">
           {aboutcontent.slice(0, 2).map(({ id, Texth1, Textp }) => (
             <div key={id} className="bg-white rounded-2xl shadow-lg p-6">
@@ -106,79 +108,82 @@ const Aboutpage = () => {
       </div>
 
       {/* Our History Section */}
-      <div className="bg-gray-900 text-white p-6 md:p-12 rounded-lg">
-        <h2 className="text-3xl font-bold text-center mb-6">Our History</h2>
-        <p className="text-gray-300 text-center mb-6">
-          Growing with Dedication and Excellence
-        </p>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className=" p-6 bg-gray-800 rounded-lg shadow-lg  flex space-x-4 items-center">
-            <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
-              2010
-            </h3>
-            <div>
-              <p className="text-white font-medium mb-2 text-2xl">
-                The Foundation Of Elephant Company
-              </p>
-              <p className=" text-base">
-                We started as a one man band, CEO Malkom and his toolbox.
-              </p>
+      <div className="bg-gray-900 text-white rounded-lg">
+        <div className=" p-6 max-w-6xl mx-auto  ">
+          <h2 className="text-3xl font-bold text-center mb-6">Our History</h2>
+          <p className="text-gray-300 text-center mb-6">
+            Growing with Dedication and Excellence
+          </p>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className=" p-6 bg-gray-800 rounded-lg shadow-lg  flex space-x-4 items-center">
+              <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
+                2010
+              </h3>
+              <div>
+                <p className="text-white font-medium mb-2 text-2xl">
+                  The Foundation Of Elephant Company
+                </p>
+                <p className=" text-base">
+                  We started as a one man band, CEO Malkom and his toolbox.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
-            <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
-              2016
-            </h3>
-            <div>
-              <p className="text-white font-medium mb-2 text-2xl">
-                Our First Employee.
-              </p>
-              <p className="text-gray-400 text-sm">
-                We hired our first helper, and bought a 2006 F150 to help us get
-                around!
-              </p>
+            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+              <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
+                2016
+              </h3>
+              <div>
+                <p className="text-white font-medium mb-2 text-2xl">
+                  Our First Employee.
+                </p>
+                <p className="text-gray-400 text-sm">
+                  We hired our first helper, and bought a 2006 F150 to help us
+                  get around!
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
-            <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
-              2017
-            </h3>
-            <div>
-              <p className="text-white font-medium mb-2 text-2xl">
-                Expansion to Ontario and Beyond
-              </p>
-              <p className="text-gray-400 text-sm">
-                We started helping families and business all across the country
-              </p>
+            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+              <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
+                2017
+              </h3>
+              <div>
+                <p className="text-white font-medium mb-2 text-2xl">
+                  Expansion to Ontario and Beyond
+                </p>
+                <p className="text-gray-400 text-sm">
+                  We started helping families and business all across the
+                  country
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
-            <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
-              2020
-            </h3>
-            <div>
-              <p className="text-white font-medium mb-2 text-2xl">
-                Covid 19: Surviving Through a Lockdown
-              </p>
-              <p className="text-gray-400 text-sm">
-                How the company managed while on lockdown.
-              </p>
+            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+              <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
+                2020
+              </h3>
+              <div>
+                <p className="text-white font-medium mb-2 text-2xl">
+                  Covid 19: Surviving Through a Lockdown
+                </p>
+                <p className="text-gray-400 text-sm">
+                  How the company managed while on lockdown.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4 items-center lg:col-span-2">
-            <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
-              2023
-            </h3>
-            <div>
-              <p className="text-white font-medium mb-2 text-2xl">
-                Present Day: A Year of Growth and Expanded Horizons
-              </p>
-              <p className="text-gray-400 text-sm">
-                In 2024, we expanded our services and took on more complex
-                projects, strengthening client relationships and enhancing our
-                commitment to quality and excellence. our extensive portfolio to
-                check it out!
-              </p>
+            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4 items-center lg:col-span-2">
+              <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
+                2023
+              </h3>
+              <div>
+                <p className="text-white font-medium mb-2 text-2xl">
+                  Present Day: A Year of Growth and Expanded Horizons
+                </p>
+                <p className="text-gray-400 text-sm">
+                  In 2024, we expanded our services and took on more complex
+                  projects, strengthening client relationships and enhancing our
+                  commitment to quality and excellence. our extensive portfolio
+                  to check it out!
+                </p>
+              </div>
             </div>
           </div>
         </div>

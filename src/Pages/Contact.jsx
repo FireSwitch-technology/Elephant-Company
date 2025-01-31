@@ -7,10 +7,15 @@ const Contact = () => {
     <div className=" w-full h-fit m-auto bg-gray-100  ">
       <div className=" pt-40">
         {" "}
-        <p className="p-5 font-normal text-xl text-blue-100 flex justify-baseline items-center">
-          Home <IoIosArrowForward />
-          <span className=" text-black font-bold text-xl"> Contact Us</span>
-        </p>
+        <div className="mb-4 text-sm text-gray-600 max-w-6xl mx-auto  p-3">
+          <a href="/" className="text-base text-blue-500 hover:underline">
+            Home
+          </a>{" "}
+          &gt;{" "}
+          <span className="font-bold text-base font-display text-black">
+            Contact
+          </span>
+        </div>
         <Map />
       </div>
     </div>
