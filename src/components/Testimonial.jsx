@@ -37,7 +37,7 @@ const Testimonial = () => {
   return (
     <div className="bg-gray-100 py-12 px-4 flex flex-col items-center">
       <h2 className="text-2xl font-bold mb-8">Testimonials</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 max-w-5xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 max-w-6xl">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-black">{testimonial.text}</p>

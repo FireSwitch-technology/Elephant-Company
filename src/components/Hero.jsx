@@ -29,17 +29,17 @@ const Hero = () => {
         </div>
 
         {/* content */}
-        <div className=" absolute top-56 w-[390px] sm:max-w-4xl p-5 flex flex-col items-center justify-center gap-5 z-10">
+        <div className=" absolute top-56 w-[390px] sm:w-6xl  flex flex-col items-center justify-center gap-5 z-10">
           <h1
             data-aos="zoom-in"
-            className=" text-2xl sm:text-7xl text-center font-display text-white font-bold"
+            className=" text-4xl md:text-7xl text-center font-display text-white font-bold  "
           >
-            Home & Commercial Services You Can Count On
+            Home & Commercial  Services You Can Count On
           </h1>
           <p
             data-aos="zoom-in"
             data-aos-delay="200"
-            className="  text-base sm:text-xl font-display font-normal text-white text-center w-xs sm:w-xl "
+            className="  text-base sm:text-xl font-display font-normal text-white text-center w-[377px] sm:w-[672px] "
           >
             We specialize in top-tier home and commercial renovations, painting,
             and contracting services in Brantford and surrounding areas.
@@ -49,7 +49,7 @@ const Hero = () => {
 
       {/* form start from here */}
       <div className=" -mt-20 z-10 ">
-        <div className="  bg-black-100 max-w-6xl  sm:w-6xl p-8 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 gap-5 text-center ">
+        <div className="  bg-black-100 lg:w-6xl  p-8 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 gap-5 text-center ">
           {/* vector1 */}
           <div className="flex flex-col items-center gap-2 justify-center">
             <img src={vector1} alt="" className=" w-14 h-12 object-cover" />

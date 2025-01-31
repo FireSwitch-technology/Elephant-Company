@@ -22,6 +22,9 @@ const Transform = () => {
             Let Elephant Solutions take care of all your home and business
             improvement needs with expertise you can trust.
           </p>
+          <button className=" text-white font-display bg-blue-100 py-2 px-3 rounded-full mt-4">
+            Get in Touch
+          </button>
         </div>
       </div>
     </div>

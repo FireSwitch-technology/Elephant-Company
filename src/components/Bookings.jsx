@@ -1,4 +1,5 @@
 import React from "react";
+import elephant from "../assets/elephant.png";
 
 const Bookings = () => {
   return (
@@ -40,6 +41,7 @@ const Bookings = () => {
           Request a Quote
         </button>
       </div>
+      {/* <img src={elephant} /> */}
     </div>
   );
 };
