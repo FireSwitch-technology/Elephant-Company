@@ -12,8 +12,8 @@ const About = () => {
     });
   }, []);
   return (
-    <div>
-      <div className=" bg-gray-100  m-auto lg:px-36 px-10 py-20 flex flex-col sm:flex sm:flex-row   justify-center items-center gap-10">
+    <div className=" w-full flex flex-col items-center justify-center bg-gray-100 ">
+      <div className=" max-w-6xl  m-auto  py-20 flex flex-col sm:flex sm:flex-row   justify-center items-center gap-10">
         {/*  */}
         <div data-aos="zoom-in" className=" bg-white rounded-2xl shadow-lg p-6">
           <h1

@@ -28,11 +28,11 @@ const Navbar = () => {
           <div className="flex justify-center items-center">
             <img src={logo} alt="Logo" className="h-10" />
             <p className=" ">
-              Elephant <br /> Company
+              Elephant <br /> Company INC.
             </p>
           </div>{" "}
         </NavLink>
-        <div className=" hidden sm:flex space-x-4">
+        <div className=" hidden sm:flex space-x-10">
           <NavLink
             to="/portfolio"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}

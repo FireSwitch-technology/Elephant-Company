@@ -35,46 +35,48 @@ const Ourservice = () => {
     });
   }, []);
   return (
-    <div className=" bg-gray-100 m-auto lg:px-36 px-10 py-12  grid grid-cols-1  justify-center items-center gap-10   ">
-      <div className=" flex flex-col items-center justify-center  ">
-        <h1
-          data-aos="zoom-in"
-          className=" font-bold text-5xl font-display text-black mb-14"
-        >
-          {" "}
-          Our Service
-        </h1>
+    <div className="bg-gray-100 flex flex-col items-center justify-center ">
+      <div className=" m-auto  max-w-6xl py-12  grid grid-cols-1  justify-center items-center gap-10   ">
+        <div className=" flex flex-col items-center justify-center  ">
+          <h1
+            data-aos="zoom-in"
+            className=" font-bold text-5xl font-display text-black mb-14"
+          >
+            {" "}
+            Our Service
+          </h1>
 
-        {/*  */}
+          {/*  */}
 
-        <div className="flex flex-wrap justify-evenly items-center  gap-3 ">
-          {videoBg.map(({ id, video, name }, index) => (
-            <div
-              key={id}
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              className=" relative max-w-[450px] sm:w-[450px] h-[500px] rounded-3xl "
-            >
-              <div className="absolute  top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50 rounded-3xl"></div>
-              <video
-                src={video}
-                ref={(el) => (videoRefs.current[index] = el)}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={() => handleMouseLeave(index)}
-                loop
-                muted
-                className=" w-full h-full object-cover rounded-3xl"
-              />
-
-              <p
-                className={`absolute ${
-                  index === 0 ? "top-0" : "bottom-0"
-                }  left-5 text-3xl font-display font-medium  text-white `}
+          <div className="flex flex-wrap justify-evenly items-center px-2 ">
+            {videoBg.map(({ id, video, name }, index) => (
+              <div
+                key={id}
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                className=" relative min-w-[350px] sm:w-[520px] h-[500px] rounded-3xl mb-3 "
               >
-                {name}{" "}
-              </p>
-            </div>
-          ))}
+                <div className=" absolute  top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50 rounded-3xl"></div>
+                <video
+                  src={video}
+                  ref={(el) => (videoRefs.current[index] = el)}
+                  onMouseEnter={() => handleMouseEnter(index)}
+                  onMouseLeave={() => handleMouseLeave(index)}
+                  loop
+                  muted
+                  className=" w-full h-full object-cover rounded-3xl"
+                />
+
+                <p
+                  className={`absolute ${
+                    index === 0 ? "top-0" : "bottom-0"
+                  }  left-5 text-3xl font-display font-medium  text-white `}
+                >
+                  {name}{" "}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

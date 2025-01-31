@@ -49,7 +49,7 @@ const Hero = () => {
 
       {/* form start from here */}
       <div className=" -mt-20 z-10 ">
-        <div className="  bg-black-100 max-w-5xl  sm:w-6xl p-8 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 gap-5 text-center ">
+        <div className="  bg-black-100 max-w-6xl  sm:w-6xl p-8 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 gap-5 text-center ">
           {/* vector1 */}
           <div className="flex flex-col items-center gap-2 justify-center">
             <img src={vector1} alt="" className=" w-14 h-12 object-cover" />
