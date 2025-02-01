@@ -74,7 +74,7 @@ const Navbar = () => {
             </p>
           </NavLink>
         </div>
-        <button className="p-3 bg-blue-100 hidden sm:flex text-white rounded-full">
+        <button className="p-3 bg-blue-100 hover:bg-blue-500  hidden sm:flex text-white rounded-full">
           Get a Quote
         </button>
         {/* toggleMenu */}
@@ -88,7 +88,7 @@ const Navbar = () => {
       </div>
       {/* MOBILE MENU */}
       <div
-        className={`fixed top-0 left-0 bg-gray-900 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 sm:hidden ${
+        className={`fixed top-0 left-0 bg-gray-900 backdrop-blur-3xl transition-all duration-300 ease-in-out overflow-hidden z-20 sm:hidden ${
           isOpen ? "w-1/2 h-screen" : "w-0 h-0"
         }`}
       >
@@ -147,7 +147,7 @@ const Navbar = () => {
       </div>
       {/* OVERLAY */}
       <div
-        className={`fixed top-0 right-0 bg-black/30 backdrop-blur-3xl bg-opacity-50 transition-all duration-300 ease-in-out z-10 sm:hidden ${
+        className={`fixed top-0 right-0 bg-black/20 backdrop-blur-3xl bg-opacity-50 transition-all duration-300 ease-in-out z-10 sm:hidden ${
           isOpen ? "w-1/2 h-screen" : "w-0 h-0"
         }`}
         onClick={closeMenu}

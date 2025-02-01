@@ -46,7 +46,7 @@ const Map = ({ margin }) => {
               <img src={emailicon} className=" w-full h-full object-cover" />
             </span>
             <span className="text-base sm:text-xl font-normal mb-3 font-display">
-              Email: elephant@gmail.com
+              Email: Elephantcompany@gmail.com
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
