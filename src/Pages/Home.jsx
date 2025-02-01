@@ -22,13 +22,7 @@ const Home = () => {
       <Meetceo />
       <Transform />
       <Bookings />
-      {/* 
-      
-      
-      
-
-   
-      <Map /> */}
+      <Map />
     </div>
   );
 };

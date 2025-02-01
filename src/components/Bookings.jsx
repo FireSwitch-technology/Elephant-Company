@@ -1,47 +1,49 @@
 import React from "react";
-import elephant from "../assets/elephant.png";
+import elephant from "../assets/elephant2.svg";
 
 const Bookings = () => {
   return (
-    <div className="bg-gray-100 pt-12 px-4">
-      <div className=" flex flex-col justify-center items-center m-auto py-20">
-        <h1 className=" font-bold font-display text-5xl mb-10">Booking</h1>
-        <div className=" max-w-4xl  grid grid-cols-1 gap-10   ">
-          <div className=" grid grid-cols-1 lg:grid-cols-2  justify-between items-center gap-10 ">
+    <div className="bg-gray-200 pt-12 px-4 h-screen  relative">
+      {/* content */}
+      <div className="flex flex-col justify-center items-center m-auto py-20 z-30 relative">
+        <h1 className="font-bold font-display text-5xl mb-10">Booking</h1>
+        <div className="max-w-3xl w-full grid grid-cols-1 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-10">
             <input
               type="text"
               placeholder="Name"
-              className=" bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-[365px] "
+              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
             <input
               type="text"
               placeholder="Email"
-              className=" bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-[365px] "
+              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
-
             <input
               type="text"
               placeholder="Phone"
-              className=" bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-[365px] "
+              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
             <input
               type="text"
-              placeholder="Services"
-              className=" bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-[365px] "
+              placeholder="Service"
+              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full "
             />
           </div>
-          <input
-            type="text"
+          <textarea
             placeholder="Message"
-            className=" bg-white py-5 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
-          />
+            className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full h-20"
+          ></textarea>
         </div>
-        <button className=" text-white font-display bg-blue-100 py-2 px-3 rounded-full mt-4">
-          {" "}
+        <button className="text-white font-display bg-blue-100 py-2 px-6 rounded-full mt-4  ">
           Request a Quote
         </button>
       </div>
-      {/* <img src={elephant} /> */}
+      {/* absolute imge */}
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] z-10 ">
+        {" "}
+        <img src={elephant} className=" w-full h-full  object-cover" />
+      </div>
     </div>
   );
 };

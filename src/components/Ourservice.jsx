@@ -35,7 +35,7 @@ const Ourservice = () => {
     });
   }, []);
   return (
-    <div className="px-4 py-12 w-full bg-gray-100 flex flex-col items-center justify-center ">
+    <div className="px-4 py-12 w-full bg-gray-200 flex flex-col items-center justify-center ">
       <div className=" mx-auto  max-w-6xl    ">
         <h1
           data-aos="zoom-in"
@@ -53,7 +53,7 @@ const Ourservice = () => {
               key={id}
               data-aos="zoom-in"
               data-aos-delay="200"
-              className=" relative min-w-[340px] md:min-w-[540px] h-[500px] rounded-3xl mb-8 mx-auto "
+              className=" relative  w-full sm:w-[48%] md:w-[45%] lg:w-[48%] h-[500px] rounded-3xl mb-8 "
             >
               <div className=" absolute  top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50 rounded-3xl"></div>
               <video

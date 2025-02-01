@@ -24,7 +24,7 @@ const About = () => {
     });
   }, []);
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-gray-100 px-4 py-12">
+    <div className="w-full flex flex-col items-center justify-center bg-gray-200 px-4 py-12">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-rows-1 sm:grid-cols-2 gap-10">
           {aboutcontent.map(({ id, h1, p }) => (

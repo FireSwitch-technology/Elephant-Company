@@ -7,6 +7,7 @@ import Warranty from "../src/Pages/Warranty.jsx";
 import FAQs from "../src/Pages/FAQs.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Navbar from "../src/components/Navbar.jsx";
+import Portfoliopage from "./Pages/Portfoliopage.jsx";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio" element={<Portfoliopage />} />
         <Route path="/aboutpage" element={<Aboutpage />} />
         <Route path="/warranty" element={<Warranty />} />
         <Route path="/faqs" element={<FAQs />} />

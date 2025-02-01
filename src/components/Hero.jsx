@@ -15,7 +15,7 @@ const Hero = () => {
     });
   }, []);
   return (
-    <div className=" w-full h-fit bg-gray-100 flex items-center justify-center flex-col    ">
+    <div className=" w-full h-fit bg-gray-200 flex items-center justify-center flex-col    ">
       <div className="relative w-full flex items-center justify-center flex-col  ">
         {/* Overlay */}
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50"></div>

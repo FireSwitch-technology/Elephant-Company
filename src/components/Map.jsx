@@ -1,4 +1,9 @@
 import React from "react";
+import callicon from "../assets/callicon.png";
+import watsappicon from "../assets/watsappicon.png";
+import locationicon from "../assets/locationicon.png";
+import timeicon from "../assets/timeicon.png";
+import emailicon from "../assets/emailicon.png";
 
 const Map = ({ margin }) => {
   return (
@@ -20,18 +25,46 @@ const Map = ({ margin }) => {
           <h1 className="  text-3xl sm:text-5xl font-bold font-display mb-3 ">
             Contact Us
           </h1>
-          <p className=" text-base sm:text-xl font-normal mb-3 ">
-            Phone: (647) 648-1808
-          </p>
-          <p className=" text-base sm:text-xl font-normal mb-3 ">
-            Email: elephant@gmail.com
-          </p>
-          <p className=" text-base sm:text-xl font-normal mb-3 ">
-            Address: 162 Longboat Run W, Brantford, ON N3T 0R8
-          </p>
-          <p className=" text-base sm:text-xl font-normal mb-3 ">
-            Working Hours: Mon - Fri: 9am - 5pm
-          </p>
+          <div className=" flex items-center justify-baseline space-x-3 ">
+            <span className="w-[24px] h-[24px] ">
+              <img src={callicon} className=" w-full h-full object-cover" />
+            </span>
+            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+              Phone: (647) 648-1808
+            </span>
+          </div>
+          <div className=" flex  items-center justify-baseline space-x-3   ">
+            <span className="w-[24px] h-[24px] ">
+              <img src={watsappicon} className=" w-full h-full object-cover" />
+            </span>
+            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+              WhatsApp: (647) 648-1808
+            </span>
+          </div>
+          <div className=" flex  items-center justify-baseline space-x-3 ">
+            <span className="w-[24px] h-[24px] ">
+              <img src={emailicon} className=" w-full h-full object-cover" />
+            </span>
+            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+              Email: elephant@gmail.com
+            </span>
+          </div>
+          <div className=" flex  items-center justify-baseline space-x-3 ">
+            <span className="w-[24px] h-[24px] ">
+              <img src={locationicon} className=" w-full h-full object-cover" />
+            </span>
+            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+              Address: 162 Longboat Run W, Brantford, ON N3T 0R8
+            </span>
+          </div>
+          <div className=" flex  items-center justify-baseline space-x-3 ">
+            <span className="w-[24px] h-[24px] ">
+              <img src={timeicon} className=" w-full h-full object-cover" />
+            </span>
+            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+              Working Hours: Mon - Fri: 9am - 5pm
+            </span>
+          </div>
         </div>
       </div>
     </div>

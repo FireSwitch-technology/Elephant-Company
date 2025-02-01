@@ -3,7 +3,7 @@ import downtown from "../assets/downtown.mp4";
 
 const Transform = () => {
   return (
-    <div className="bg-gray-100 py-12 w-full h-fit">
+    <div className="bg-gray-200 py-12 w-full h-fit">
       <div className="relative">
         <video
           src={downtown}
@@ -22,7 +22,7 @@ const Transform = () => {
             Let Elephant Solutions take care of all your home and business
             improvement needs with expertise you can trust.
           </p>
-          <button className=" text-white font-display bg-blue-100 py-2 px-3 rounded-full mt-4">
+          <button className=" text-white font-display bg-blue-100 py-2 px-6 rounded-full mt-4 ">
             Get in Touch
           </button>
         </div>
