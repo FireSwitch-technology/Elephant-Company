@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import downtown from "../assets/downtown.mp4";
 
 const Transform = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+  }, []);
   return (
     <div className="bg-gray-200 py-12 w-full h-fit">
       <div className="relative">
@@ -14,7 +24,10 @@ const Transform = () => {
         />
 
         {/* downBox */}
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white p-8 w-full sm:w-2xl rounded-2xl gap-5 text-center shadow-md z-10">
+        <div
+          data-aos="flip-left"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white p-8 w-full sm:w-2xl rounded-2xl gap-5 text-center shadow-md z-10"
+        >
           <h1 className="text-2xl sm:text-4xl font-display font-bold mb-4">
             Transform Your Property Today!
           </h1>

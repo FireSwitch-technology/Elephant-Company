@@ -1,5 +1,6 @@
 import React from "react";
 import ceoimg from "../assets/ceoimg.png";
+
 const Meetceo = () => {
   const ceocontent = [
     {

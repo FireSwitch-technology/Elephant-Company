@@ -7,12 +7,12 @@ const About = () => {
     {
       id: 1,
       h1: "Who We Are",
-      p: "Elephant Solutions was founded in 2014 with a passion for high-quality craftsmanship and a dedication to exceptional service.ginnings in Brantford, our commitment to delivering top-tier services has helped us grow into a trusted name in the industry. Whether it's transforming homes or enhancing commercial spaces, we take pride in every project, large or small.",
+      p: "Elephant Company was founded in 2014 with a passion for high-quality craftsmanship and a dedication to exceptional service.ginnings in Brantford, our commitment to delivering top-tier services has helped us grow into a trusted name in the industry. Whether it's transforming homes or enhancing commercial spaces, we take pride in every project, large or small.",
     },
     {
       id: 2,
       h1: " Our Mission",
-      p: "    At Elephant Solutions, our mission is to deliver outstanding craftsmanship with a focus on customer satisfaction and quality. We believe in creating lasting relationships with our clients by providing services that are timely, transparent, and tailored to each client’s vision. We strive for excellence in everything we do, ensuring each project is completed on time and to the highest standard.",
+      p: "    At Elephant Company, our mission is to deliver outstanding craftsmanship with a focus on customer satisfaction and quality. We believe in creating lasting relationships with our clients by providing services that are timely, transparent, and tailored to each client’s vision. We strive for excellence in everything we do, ensuring each project is completed on time and to the highest standard.",
     },
   ];
   useEffect(() => {

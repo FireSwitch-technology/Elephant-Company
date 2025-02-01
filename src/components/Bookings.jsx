@@ -40,7 +40,7 @@ const Bookings = () => {
         </button>
       </div>
       {/* absolute imge */}
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] z-10 ">
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] z-10 hidden sm:flex ">
         {" "}
         <img src={elephant} className=" w-full h-full  object-cover" />
       </div>

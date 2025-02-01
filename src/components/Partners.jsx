@@ -15,7 +15,9 @@ const Partners = () => {
   ];
   return (
     <div className="bg-gray-900 text-white py-8 flex flex-col items-center">
-      <h1 className="text-xl font-bold mb-6">Our Trusted Partners</h1>
+      <h1 className="text-xl sm:text-5xl font-bold mb-6">
+        Our Trusted Partners
+      </h1>
       <div className="flex flex-wrap justify-center gap-8">
         {partnersimg.map(({ id, image }) => (
           <div key={id}>

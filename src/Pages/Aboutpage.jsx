@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import vector from "../assets/vec2.png";
 import vector2 from "../assets/vec3.png";
 import vector3 from "../assets/vec4.png";
@@ -13,13 +15,13 @@ const Aboutpage = () => {
       id: 1,
       Texth1: "Who We Are",
       Textp:
-        "Elephant Solutions was founded in 2014 with a passion for high-quality craftsmanship and a dedication to exceptional service. From humble beginnings in Brantford, our commitment to delivering top-tier services has helped us grow into a trusted name in the industry. Whether it's transforming homes or enhancing commercial spaces, we take pride in every project, large or small.",
+        "Elephant Company was founded in 2014 with a passion for high-quality craftsmanship and a dedication to exceptional service. From humble beginnings in Brantford, our commitment to delivering top-tier services has helped us grow into a trusted name in the industry. Whether it's transforming homes or enhancing commercial spaces, we take pride in every project, large or small.",
     },
     {
       id: 2,
       Texth1: "  Our Mission",
       Textp:
-        "At Elephant Solutions, our mission is to deliver outstanding craftsmanship with a focus on customer satisfaction and quality. We believe in creating lasting relationships with our clients by providing services that are timely, transparent, and tailored to each client’s vision. We strive for excellence in everything we do, ensuring each project is completed on time and to the highest",
+        "At Elephant Company, our mission is to deliver outstanding craftsmanship with a focus on customer satisfaction and quality. We believe in creating lasting relationships with our clients by providing services that are timely, transparent, and tailored to each client’s vision. We strive for excellence in everything we do, ensuring each project is completed on time and to the highest",
     },
     {
       id: 3,
@@ -49,6 +51,14 @@ const Aboutpage = () => {
         "Our team is fully licensed and bonded, meeting all industry standards and regulations.",
     },
   ];
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+  }, []);
   return (
     <div className="bg-gray-100  ">
       <div className="max-w-6xl mx-auto p-6 pt-44  ">
@@ -62,11 +72,23 @@ const Aboutpage = () => {
         {/*  */}
         <div className=" grid grid-rows-1 sm:grid-cols-2 gap-10  ">
           {aboutcontent.slice(0, 2).map(({ id, Texth1, Textp }) => (
-            <div key={id} className="max-w-[560px] p-7 bg-white rounded-2xl">
-              <h1 className="text-[20px] md:text-[40px] font-bold font-display text-black mb-3">
+            <div
+              data-aos="zoom-in"
+              key={id}
+              className="max-w-[560px] p-7 bg-white rounded-2xl"
+            >
+              <h1
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                className="text-[20px] md:text-[40px] font-bold font-display text-black mb-3"
+              >
                 {Texth1}{" "}
               </h1>
-              <p className="text-base text-start sm:text-xl font-normal font-display text-black">
+              <p
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                className="text-base text-start sm:text-xl font-normal font-display text-black"
+              >
                 {Textp}{" "}
               </p>
             </div>
