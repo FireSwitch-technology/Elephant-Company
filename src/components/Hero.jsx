@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-2 justify-center">
             <img src={vector2} alt="" className=" w-14 h-12 object-cover" />
             <p className="font-display text-blue-100 font-bold text-5xl sm:text-6xl">
-              150+
+              10+
             </p>
             <p className=" text-xl font-display font-normal text-white">
               Years of Experience
@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-2 justify-center">
             <img src={vector3} alt="" className=" w-14 h-12 object-cover" />
             <p className="font-display text-blue-100 font-bold text-5xl sm:text-6xl">
-              150+
+              99%
             </p>
             <p className=" text-xl font-display font-normal text-white">
               Client Satisfaction

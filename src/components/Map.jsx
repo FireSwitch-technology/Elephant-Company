@@ -26,7 +26,7 @@ const Map = ({ margin }) => {
             Contact Us
           </h1>
           <div className=" flex items-center justify-baseline space-x-3 ">
-            <span className="max-w-[24px]  h-[24px] ">
+            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
               <img src={callicon} className=" w-full h-full object-cover" />
             </span>
             <span className=" text-base md:text-xl font-normal mb-3 font-display">
@@ -34,7 +34,7 @@ const Map = ({ margin }) => {
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3   ">
-            <span className="max-w-[24px]  h-[24px] ">
+            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px]">
               <img src={watsappicon} className=" w-full h-full object-cover" />
             </span>
             <span className="text-base md:text-xl font-normal mb-3 font-display">
@@ -42,7 +42,7 @@ const Map = ({ margin }) => {
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="max-w-[24px]  h-[24px] ">
+            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
               <img src={emailicon} className=" w-full h-full object-cover" />
             </span>
             <span className="text-base md:text-xl font-normal mb-3 font-display">
@@ -50,7 +50,7 @@ const Map = ({ margin }) => {
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="max-w-[24px]  h-[24px] ">
+            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
               <img src={locationicon} className=" w-full h-full object-cover" />
             </span>
             <span className="text-base md:text-xl font-normal mb-3 font-display">
@@ -58,7 +58,7 @@ const Map = ({ margin }) => {
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="max-w-[24px] h-[24px] ">
+            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
               <img src={timeicon} className=" w-full h-full object-cover" />
             </span>
             <span className="text-base md:text-xl font-normal mb-3 font-display">

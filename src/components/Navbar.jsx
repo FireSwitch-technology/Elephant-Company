@@ -67,7 +67,7 @@ const Navbar = () => {
             </p>
           </NavLink>
         </div>
-        <button className="p-3 bg-blue-100 hover:bg-blue-500  hidden sm:flex text-white rounded-full">
+        <button className="p-3 bg-blue-200   hidden sm:flex text-white rounded-full">
           Get a Quote
         </button>
         {/* toggleMenu */}

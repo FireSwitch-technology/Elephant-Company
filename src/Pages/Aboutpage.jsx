@@ -165,7 +165,7 @@ const Aboutpage = () => {
             Growing with Dedication and Excellence
           </p>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className=" p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex space-x-2 items-center">
+            <div className=" p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex justify-between  items-center">
               <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
                 2010
               </h3>
@@ -178,7 +178,7 @@ const Aboutpage = () => {
                 </p>
               </div>
             </div>
-            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex space-x-2  items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex justify-between  items-center">
               <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
                 2016
               </h3>
@@ -186,13 +186,13 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Our First Employee.
                 </p>
-                <p className="text-white-100 text-sm">
+                <p className="text-white-100 text-base">
                   We hired our first helper, and bought a 2006 F150 to help us
                   get around!
                 </p>
               </div>
             </div>
-            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  justify-between  items-center">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2017
               </h3>
@@ -200,13 +200,13 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Expansion to Ontario and Beyond
                 </p>
-                <p className="text-white-100 text-sm">
+                <p className="text-white-100 text-base">
                   We started helping families and business all across the
                   country
                 </p>
               </div>
             </div>
-            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  justify-between  items-center">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2020
               </h3>
@@ -214,12 +214,12 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Covid 19: Surviving Through a Lockdown
                 </p>
-                <p className="text-white-100 text-sm">
+                <p className="text-white-100 text-base">
                   How the company managed while on lockdown.
                 </p>
               </div>
             </div>
-            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center lg:col-span-2">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  justify-between  items-center lg:col-span-2">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2023
               </h3>
@@ -227,7 +227,7 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Present Day: A Year of Growth and Expanded Horizons
                 </p>
-                <p className="text-white-100 text-sm">
+                <p className="text-white-100 text-base">
                   In 2024, we expanded our services and took on more complex
                   projects, strengthening client relationships and enhancing our
                   commitment to quality and excellence. our extensive portfolio

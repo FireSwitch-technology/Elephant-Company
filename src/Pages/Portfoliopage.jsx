@@ -109,7 +109,7 @@ const Portfoliopage = () => {
             </p>
             <a
               href="/contact"
-              className="inline-block bg-blue-100 hover:bg-blue-500 text-white px-6 py-2 rounded-full"
+              className="inline-block bg-blue-200  text-white px-6 py-2 rounded-full"
             >
               Contact Us
             </a>
