@@ -26,46 +26,49 @@ const FAQs = () => {
             Curious Minds Wants to Know
           </h1>
           {/*  */}
-          <div className="hidden sm:grid grid-cols-2 justify-evenly max-w-[600px] gap-5 mb-4 ">
-            <button className=" p-2 bg-blue-200 text-white  rounded-full flex justify-center items-start gap-2  ">
+          <div className=" grid grid-cols-2  max-w-[600px] gap-5 mb-4 ">
+            <button className=" py-2 px-3 bg-blue-200 text-white  rounded-full flex justify-center gap-3  ">
               <span>
                 {" "}
                 <img src={vecReno} alt="" className=" h-6 w-6 " />
               </span>{" "}
-              <span className=" text-sm sm:text-base">
+              <span className="text-start text-sm sm:text-base">
                 {" "}
                 Basement Renovation
               </span>
             </button>
-            <button className=" p-2 bg-blue-100 rounded-full flex justify-center items-start gap-2  ">
+            <button className="  py-2 px-3 bg-blue-100 rounded-full flex justify-center  gap-3  ">
               <span>
                 {" "}
                 <img src={vecBas} alt="" className="  h-6 w-6 " />
               </span>
-              <span className=" text-sm sm:text-base"> Legal Basement</span>
+              <span className="text-start text-sm sm:text-base">
+                {" "}
+                Legal Basement
+              </span>
             </button>
-            <button className=" p-2 bg-blue-100  rounded-full flex justify-center  items-start gap-2  ">
+            <button className=" py-2 px-3 bg-blue-100  rounded-full flex justify-center  gap-3 ">
               <span>
                 {" "}
                 <img src={vecDes} alt="" className=" h-6 w-6" />
               </span>{" "}
-              <span className=" text-sm sm:text-base">
+              <span className="text-start text-sm sm:text-base">
                 {" "}
                 Design & Customization
               </span>
             </button>
-            <button className=" p-2 bg-blue-100  rounded-full flex justify-center  items-start gap-2   ">
+            <button className=" py-2 px-3 bg-blue-100  rounded-full flex justify-center  gap-3   ">
               <span>
                 {" "}
                 <img src={vecMat} alt="" className=" h-6 w-6" />
               </span>{" "}
-              <span className=" text-sm sm:text-base">
+              <span className="text-start text-sm sm:text-base">
                 {" "}
                 Construction & Materials
               </span>
             </button>
           </div>
-          <div className=" flex flex-col sm:flex-row sm:flex  justify-between items-center">
+          <div className=" flex flex-col sm:flex-row sm:flex   justify-between items-center">
             {/* accordian */}
             <div className=" w-[100%] sm:w-[60%] ">
               <Accordian

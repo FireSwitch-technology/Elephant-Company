@@ -14,11 +14,12 @@ const Hero = () => {
       delay: 100,
     });
   }, []);
+
   return (
     <div className=" w-full h-fit bg-gray-200 flex items-center justify-center flex-col    ">
       <div className="relative w-full flex items-center justify-center flex-col  ">
         {/* Overlay */}
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-black to-transparent opacity-50"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="  w-full h-[690px]   ">
           {/* background img */}
           <img
@@ -29,18 +30,14 @@ const Hero = () => {
         </div>
 
         {/* content */}
-        <div className=" absolute top-56 w-[390px] sm:w-6xl  flex flex-col items-center justify-center gap-5 z-10">
-          <h1
-            data-aos="zoom-in"
-            className=" text-4xl md:text-7xl text-center font-display text-white font-bold  "
-          >
-            Home & Commercial  Services You Can Count On
+        <div
+          data-aos="zoom-in"
+          className="absolute top-1/2 transform -translate-y-1/2 w-full px-4 sm:px-8 flex flex-col items-center justify-center gap-5 z-10"
+        >
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-display text-white font-bold">
+            Home & Commercial Services You Can Count On
           </h1>
-          <p
-            data-aos="zoom-in"
-            data-aos-delay="200"
-            className="  text-base sm:text-xl font-display font-normal text-white text-center w-[377px] sm:w-[672px] "
-          >
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-display font-normal text-white text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
             We specialize in top-tier home and commercial renovations, painting,
             and contracting services in Brantford and surrounding areas.
           </p>

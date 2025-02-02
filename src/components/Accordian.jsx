@@ -11,7 +11,7 @@ const Accordian = ({ title, answer }) => {
         className=" flex justify-between w-full"
       >
         {" "}
-        <span>{title}</span>{" "}
+        <span className=" text-start">{title}</span>{" "}
         {accordianOpen ? (
           <span>
             <IoIosArrowBack />

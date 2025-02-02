@@ -7,6 +7,7 @@ import FAQs from "../src/Pages/FAQs.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Navbar from "../src/components/Navbar.jsx";
 import Portfoliopage from "./Pages/Portfoliopage.jsx";
+import Footer from "./Pages/Footer.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
