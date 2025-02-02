@@ -13,7 +13,7 @@ import Map from "../components/Map";
 
 const Home = () => {
   return (
-    <div className=" ">
+    <div className=" overflow-hidden ">
       <Hero />
       <About />
       <Ourservice />
