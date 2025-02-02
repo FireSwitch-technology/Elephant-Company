@@ -32,12 +32,12 @@ const Hero = () => {
         {/* content */}
         <div
           data-aos="zoom-in"
-          className="absolute top-1/2 transform -translate-y-1/2 w-full px-4 sm:px-8 flex flex-col items-center justify-center gap-5 z-10"
+          className="absolute top-1/2 transform -translate-y-1/2 w-full  flex flex-col items-center justify-center gap-5 z-10"
         >
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-display text-white font-bold">
+          <h1 className="text-4xl md:text-5xl lg:text-[80px] md:max-w-3xl lg:max-w-7xl text-center font-display text-white font-bold">
             Home & Commercial Services You Can Count On
           </h1>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-display font-normal text-white text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl font-display font-normal text-white text-center max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl">
             We specialize in top-tier home and commercial renovations, painting,
             and contracting services in Brantford and surrounding areas.
           </p>
