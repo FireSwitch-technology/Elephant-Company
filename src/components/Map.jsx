@@ -21,47 +21,47 @@ const Map = ({ margin }) => {
           <a href="https://www.gps.ie/">gps vehicle tracker</a>
         </iframe>
 
-        <div className=" absolute z-10 bottom-14 mx-10  bg-white max-w-[522px] rounded-lg p-9">
-          <h1 className="  text-3xl sm:text-5xl font-bold font-display mb-3 ">
+        <div className=" absolute z-10 bottom-14 left-3 bg-white mx-auto max-w-[360px] md:max-w-[500px] rounded-lg p-4">
+          <h1 className="  text-3xl sm:text-5xl font-bold font-display mb-5 ">
             Contact Us
           </h1>
           <div className=" flex items-center justify-baseline space-x-3 ">
-            <span className="w-[24px] h-[24px] ">
+            <span className="max-w-[24px]  h-[24px] ">
               <img src={callicon} className=" w-full h-full object-cover" />
             </span>
-            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+            <span className=" text-base md:text-xl font-normal mb-3 font-display">
               Phone: (647) 648-1808
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3   ">
-            <span className="w-[24px] h-[24px] ">
+            <span className="max-w-[24px]  h-[24px] ">
               <img src={watsappicon} className=" w-full h-full object-cover" />
             </span>
-            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+            <span className="text-base md:text-xl font-normal mb-3 font-display">
               WhatsApp: (647) 648-1808
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[24px] h-[24px] ">
+            <span className="max-w-[24px]  h-[24px] ">
               <img src={emailicon} className=" w-full h-full object-cover" />
             </span>
-            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+            <span className="text-base md:text-xl font-normal mb-3 font-display">
               Email: Elephantcompany@gmail.com
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[24px] h-[24px] ">
+            <span className="max-w-[24px]  h-[24px] ">
               <img src={locationicon} className=" w-full h-full object-cover" />
             </span>
-            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+            <span className="text-base md:text-xl font-normal mb-3 font-display">
               Address: 162 Longboat Run W, Brantford, ON N3T 0R8
             </span>
           </div>
           <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[24px] h-[24px] ">
+            <span className="max-w-[24px] h-[24px] ">
               <img src={timeicon} className=" w-full h-full object-cover" />
             </span>
-            <span className="text-base sm:text-xl font-normal mb-3 font-display">
+            <span className="text-base md:text-xl font-normal mb-3 font-display">
               Working Hours: Mon - Fri: 9am - 5pm
             </span>
           </div>

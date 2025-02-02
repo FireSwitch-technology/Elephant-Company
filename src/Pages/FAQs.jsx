@@ -22,12 +22,12 @@ const FAQs = () => {
         </div>
         {/*  */}
         <div className="mt-8 ">
-          <h1 className=" text-3xl mb-5 sm:text-5xl font-bold font-display">
+          <h1 className=" text-3xl mb-8 sm:text-5xl font-bold font-display">
             Curious Minds Wants to Know
           </h1>
           {/*  */}
-          <div className="hidden sm:grid grid-cols-2 justify-evenly max-w-[600px] gap-5 mb-8 ">
-            <button className=" p-2 bg-blue-100 hover:bg-blue-200 rounded-full flex justify-center items-start gap-2  ">
+          <div className="hidden sm:grid grid-cols-2 justify-evenly max-w-[600px] gap-5 mb-4 ">
+            <button className=" p-2 bg-blue-200 text-white  rounded-full flex justify-center items-start gap-2  ">
               <span>
                 {" "}
                 <img src={vecReno} alt="" className=" h-6 w-6 " />
@@ -37,14 +37,14 @@ const FAQs = () => {
                 Basement Renovation
               </span>
             </button>
-            <button className=" p-2 bg-blue-100 hover:bg-blue-200 rounded-full flex justify-center items-start gap-2  ">
+            <button className=" p-2 bg-blue-100 rounded-full flex justify-center items-start gap-2  ">
               <span>
                 {" "}
                 <img src={vecBas} alt="" className="  h-6 w-6 " />
               </span>
               <span className=" text-sm sm:text-base"> Legal Basement</span>
             </button>
-            <button className=" p-2 bg-blue-100 hover:bg-blue-200 rounded-full flex justify-center  items-start gap-2  ">
+            <button className=" p-2 bg-blue-100  rounded-full flex justify-center  items-start gap-2  ">
               <span>
                 {" "}
                 <img src={vecDes} alt="" className=" h-6 w-6" />
@@ -54,7 +54,7 @@ const FAQs = () => {
                 Design & Customization
               </span>
             </button>
-            <button className=" p-2 bg-blue-100 hover:bg-blue-200 rounded-full flex justify-center  items-start gap-2   ">
+            <button className=" p-2 bg-blue-100  rounded-full flex justify-center  items-start gap-2   ">
               <span>
                 {" "}
                 <img src={vecMat} alt="" className=" h-6 w-6" />

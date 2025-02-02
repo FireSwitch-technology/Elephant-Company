@@ -49,14 +49,7 @@ const Navbar = () => {
               About
             </p>
           </NavLink>
-          <NavLink
-            to="/warranty"
-            className={({ isActive }) => (isActive ? activeLink : normalLink)}
-          >
-            <p className="cursor-pointer text-base font-display font-normal">
-              Warranty
-            </p>
-          </NavLink>
+
           <NavLink
             to="/faqs"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -116,15 +109,7 @@ const Navbar = () => {
               About
             </p>
           </NavLink>
-          <NavLink
-            to="/warranty"
-            className={({ isActive }) => (isActive ? activeLink : normalLink)}
-            onClick={closeMenu}
-          >
-            <p className="cursor-pointer text-base font-display font-normal">
-              Warranty
-            </p>
-          </NavLink>
+
           <NavLink
             to="/faqs"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}

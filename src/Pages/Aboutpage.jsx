@@ -96,7 +96,7 @@ const Aboutpage = () => {
         </div>
 
         {/* Why Choose Us Section */}
-        <div className="mt-20 mb-14 grid grid-cols-1 sm:grid-cols-2 gap-10">
+        <div className="mt-20 py-12 mb-14 grid grid-cols-1 sm:grid-cols-2 gap-10">
           <div>
             {" "}
             <h2 className="text-[20px] md:text-[40px] font-bold font-display text-black  mb-4">
@@ -156,8 +156,8 @@ const Aboutpage = () => {
       </div>
 
       {/* Our History Section */}
-      <div className="bg-gray-900 text-white rounded-lg">
-        <div className=" p-6 max-w-6xl mx-auto  ">
+      <div className="bg-gray-900 text-white rounded-lg py-10">
+        <div className=" p-4 max-w-6xl mx-auto  ">
           <h2 className="text-2xl sm:text-5xl font-bold font-display text-center mb-6">
             Our History
           </h2>
@@ -165,7 +165,7 @@ const Aboutpage = () => {
             Growing with Dedication and Excellence
           </p>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className=" p-6 bg-gray-800 rounded-lg shadow-lg  flex space-x-4 items-center">
+            <div className=" p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex space-x-2 items-center">
               <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
                 2010
               </h3>
@@ -173,12 +173,12 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   The Foundation Of Elephant Company
                 </p>
-                <p className=" text-base">
+                <p className="text-white-100 text-base">
                   We started as a one man band, CEO Malkom and his toolbox.
                 </p>
               </div>
             </div>
-            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex space-x-2  items-center">
               <h3 className=" transform rotate-90 text-4xl font-medium text-blue-100">
                 2016
               </h3>
@@ -186,13 +186,13 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Our First Employee.
                 </p>
-                <p className="text-gray-400 text-sm">
+                <p className="text-white-100 text-sm">
                   We hired our first helper, and bought a 2006 F150 to help us
                   get around!
                 </p>
               </div>
             </div>
-            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2017
               </h3>
@@ -200,13 +200,13 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Expansion to Ontario and Beyond
                 </p>
-                <p className="text-gray-400 text-sm">
+                <p className="text-white-100 text-sm">
                   We started helping families and business all across the
                   country
                 </p>
               </div>
             </div>
-            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4  items-center">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2020
               </h3>
@@ -214,12 +214,12 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Covid 19: Surviving Through a Lockdown
                 </p>
-                <p className="text-gray-400 text-sm">
+                <p className="text-white-100 text-sm">
                   How the company managed while on lockdown.
                 </p>
               </div>
             </div>
-            <div className="p-4 bg-gray-800 rounded-lg shadow-lg flex  space-x-4 items-center lg:col-span-2">
+            <div className="p-2 bg-gray-800 rounded-lg drop-shadow-2xl hover:drop-shadow-3xl flex  space-x-2 items-center lg:col-span-2">
               <h3 className="transform rotate-90 text-4xl font-medium text-blue-100">
                 2023
               </h3>
@@ -227,7 +227,7 @@ const Aboutpage = () => {
                 <p className="text-white font-medium mb-2 text-2xl">
                   Present Day: A Year of Growth and Expanded Horizons
                 </p>
-                <p className="text-gray-400 text-sm">
+                <p className="text-white-100 text-sm">
                   In 2024, we expanded our services and took on more complex
                   projects, strengthening client relationships and enhancing our
                   commitment to quality and excellence. our extensive portfolio

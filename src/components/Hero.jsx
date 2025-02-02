@@ -67,7 +67,7 @@ const Hero = () => {
               150+
             </p>
             <p className=" text-xl font-display font-normal text-white">
-              Projects Completed
+              Years of Experience
             </p>
           </div>
           {/* vector3 */}
@@ -77,7 +77,7 @@ const Hero = () => {
               150+
             </p>
             <p className=" text-xl font-display font-normal text-white">
-              Projects Completed
+              Client Satisfaction
             </p>
           </div>
         </div>
