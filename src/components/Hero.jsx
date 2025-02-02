@@ -32,7 +32,7 @@ const Hero = () => {
         {/* content */}
         <div
           data-aos="zoom-in"
-          className="absolute top-1/2 transform -translate-y-1/2 w-full  flex flex-col items-center justify-center gap-5 z-10"
+          className="absolute top-84 transform -translate-y-1/2 w-full  flex flex-col items-center justify-center gap-5 z-10"
         >
           <h1 className=" text-3xl md:text-5xl max-w-[360px]  md:max-w-3xl  lg:text-[80px] lg:max-w-7xl text-center font-display text-white font-bold">
             Home & Commercial Services You Can Count On
