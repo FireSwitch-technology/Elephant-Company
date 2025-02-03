@@ -5,10 +5,10 @@ import { IoIosArrowBack } from "react-icons/io";
 const Accordian = ({ title, answer }) => {
   const [accordianOpen, setAccordianOpen] = useState(false);
   return (
-    <div className=" p-4 mb-4 w-full bg-white rounded-full">
+    <div className=" p-4 mb-4 w-full bg-white rounded-full shadow-3xl shadow-black-100  ">
       <button
         onClick={() => setAccordianOpen(!accordianOpen)}
-        className=" flex justify-between w-full"
+        className=" flex justify-between w-full "
       >
         {" "}
         <span className=" text-start">{title}</span>{" "}

@@ -63,14 +63,17 @@ const Aboutpage = () => {
     <div className="bg-gray-200  ">
       <div className="max-w-6xl mx-auto p-6 pt-44  ">
         {/*  */}
-        <div className="mb-4 text-sm text-gray-600">
+        <div className="mb-[48px] text-sm text-gray-600">
           <a href="/" className="text-blue-500 hover:underline">
             Home
           </a>{" "}
-          &gt; <span className="font-bold">About</span>
+          &gt;{" "}
+          <span className="font-bold text-base font-display text-black">
+            About
+          </span>
         </div>
         {/*  */}
-        <div className=" grid grid-rows-1 sm:grid-cols-2 gap-10  ">
+        <div className=" grid grid-rows-1 sm:grid-cols-2 gap-10 mb-[48px]  ">
           {aboutcontent.slice(0, 2).map(({ id, Texth1, Textp }) => (
             <div
               data-aos="zoom-in"
@@ -96,7 +99,7 @@ const Aboutpage = () => {
         </div>
 
         {/* Why Choose Us Section */}
-        <div className="mt-20 py-12 mb-14 grid grid-cols-1 sm:grid-cols-2 gap-10">
+        <div className=" py-12 mb-14 grid grid-cols-1 sm:grid-cols-2 gap-10">
           <div>
             {" "}
             <h2 className="text-[20px] md:text-[40px] font-bold font-display text-black  mb-4">

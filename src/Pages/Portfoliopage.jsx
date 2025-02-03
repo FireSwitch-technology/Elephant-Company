@@ -85,7 +85,10 @@ const Portfoliopage = () => {
             <a href="/" className="text-blue-500 hover:underline">
               Home
             </a>{" "}
-            &gt; <span className="font-bold text-black">Portfolio</span>
+            &gt;{" "}
+            <span className="font-bold text-base font-display text-black">
+              Portfolio
+            </span>
           </div>
           {/* Image Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[250px] ">

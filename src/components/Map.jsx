@@ -8,10 +8,10 @@ import emailicon from "../assets/emailicon.png";
 const Map = ({ margin }) => {
   return (
     <div className=" ">
-      <div className={`relative  ${margin}`}>
+      <div className={`relative w-full  ${margin}`}>
         <iframe
           width="100%"
-          height="600"
+          height="736"
           frameBorder="0"
           scrolling="no"
           marginHeight="0"
@@ -21,49 +21,57 @@ const Map = ({ margin }) => {
           <a href="https://www.gps.ie/">gps vehicle tracker</a>
         </iframe>
 
-        <div className=" absolute z-10 bottom-14 left-3 bg-white mx-auto max-w-[360px] md:max-w-[500px] rounded-lg p-4">
-          <h1 className="  text-3xl sm:text-5xl font-bold font-display mb-5 ">
-            Contact Us
-          </h1>
-          <div className=" flex items-center justify-baseline space-x-3 ">
-            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
-              <img src={callicon} className=" w-full h-full object-cover" />
-            </span>
-            <span className=" text-base md:text-xl font-normal mb-3 font-display">
-              Phone: (647) 648-1808
-            </span>
-          </div>
-          <div className=" flex  items-center justify-baseline space-x-3   ">
-            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px]">
-              <img src={watsappicon} className=" w-full h-full object-cover" />
-            </span>
-            <span className="text-base md:text-xl font-normal mb-3 font-display">
-              WhatsApp: (647) 648-1808
-            </span>
-          </div>
-          <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
-              <img src={emailicon} className=" w-full h-full object-cover" />
-            </span>
-            <span className="text-base md:text-xl font-normal mb-3 font-display">
-              Email: Elephantcompany@gmail.com
-            </span>
-          </div>
-          <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
-              <img src={locationicon} className=" w-full h-full object-cover" />
-            </span>
-            <span className="text-base md:text-xl font-normal mb-3 font-display">
-              Address: 162 Longboat Run W, Brantford, ON N3T 0R8
-            </span>
-          </div>
-          <div className=" flex  items-center justify-baseline space-x-3 ">
-            <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
-              <img src={timeicon} className=" w-full h-full object-cover" />
-            </span>
-            <span className="text-base md:text-xl font-normal mb-3 font-display">
-              Working Hours: Mon - Fri: 9am - 5pm
-            </span>
+        <div className=" max-w-6xl mx-auto  ">
+          <div className=" absolute  bottom-14 mx-6 z-10 bg-white  max-w-[522px] h-[434px] rounded-lg py-[24px] px-[32px] ">
+            <h1 className="  text-3xl sm:text-5xl font-bold font-display ">
+              Contact Us
+            </h1>
+            <div className=" flex items-center  space-x-3 py-[24px] ">
+              <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
+                <img src={callicon} className=" w-full h-full object-cover" />
+              </span>
+              <span className=" text-base md:text-xl font-normal  font-display">
+                Phone: (647) 648-1808
+              </span>
+            </div>
+            <div className=" flex  items-center  space-x-3 pb-[24px]    ">
+              <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px]">
+                <img
+                  src={watsappicon}
+                  className=" w-full h-full object-cover"
+                />
+              </span>
+              <span className="text-base md:text-xl font-normal font-display">
+                WhatsApp: (647) 648-1808
+              </span>
+            </div>
+            <div className=" flex  items-center pb-[24px]    space-x-3 ">
+              <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
+                <img src={emailicon} className=" w-full h-full object-cover" />
+              </span>
+              <span className="text-base md:text-xl font-normal font-display">
+                Email: Elephantcompany@gmail.com
+              </span>
+            </div>
+            <div className=" flex  items-center pb-[24px]    space-x-3 ">
+              <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
+                <img
+                  src={locationicon}
+                  className=" w-full h-full object-cover"
+                />
+              </span>
+              <span className="text-base md:text-xl font-normal  font-display">
+                Address: 162 Longboat Run W, Brantford, ON N3T 0R8
+              </span>
+            </div>
+            <div className=" flex  items-center    space-x-3 ">
+              <span className="w-[18px] h-[18px] md:w-[24px]  md:h-[24px] ">
+                <img src={timeicon} className=" w-full h-full object-cover" />
+              </span>
+              <span className="text-base md:text-xl font-normal  font-display">
+                Working Hours: Mon - Fri: 9am - 5pm
+              </span>
+            </div>
           </div>
         </div>
       </div>

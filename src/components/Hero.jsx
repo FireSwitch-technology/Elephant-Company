@@ -46,9 +46,9 @@ const Hero = () => {
 
       {/* form start from here */}
       <div className=" -mt-20 z-10 ">
-        <div className="  bg-black-100 lg:w-6xl  p-8 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 gap-5 text-center ">
+        <div className="  bg-black-100 lg:w-6xl  p-10 m-auto rounded-2xl sm:grid sm:grid-cols-3 grid grid-cols-1 justify-between gap-[47px] ">
           {/* vector1 */}
-          <div className="flex flex-col items-center gap-2 justify-center">
+          <div className="flex flex-col items-center gap-2 ">
             <img src={vector1} alt="" className=" w-14 h-12 object-cover" />
             <p className="font-display text-blue-100 font-bold text-5xl sm:text-6xl">
               150+
@@ -58,7 +58,7 @@ const Hero = () => {
             </p>
           </div>
           {/* vector2 */}
-          <div className="flex flex-col items-center gap-2 justify-center">
+          <div className="flex flex-col items-center gap-2 ">
             <img src={vector2} alt="" className=" w-14 h-12 object-cover" />
             <p className="font-display text-blue-100 font-bold text-5xl sm:text-6xl">
               10+
@@ -68,7 +68,7 @@ const Hero = () => {
             </p>
           </div>
           {/* vector3 */}
-          <div className="flex flex-col items-center gap-2 justify-center">
+          <div className="flex flex-col items-center gap-2">
             <img src={vector3} alt="" className=" w-14 h-12 object-cover" />
             <p className="font-display text-blue-100 font-bold text-5xl sm:text-6xl">
               99%

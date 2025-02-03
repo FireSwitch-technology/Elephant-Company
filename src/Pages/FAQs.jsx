@@ -29,7 +29,7 @@ const FAQs = () => {
     <div className=" w-full h-fit m-auto bg-gray-200  ">
       <div className=" pt-40 max-w-6xl mx-auto  p-3">
         {/*  */}
-        <div className="mb-4 text-sm text-gray-600">
+        <div className="mb-[48px] text-sm text-gray-600">
           <a href="/" className="text-blue-500 text-base hover:underline">
             Home
           </a>{" "}
@@ -39,12 +39,12 @@ const FAQs = () => {
           </span>
         </div>
         {/*  */}
-        <div className="mt-8 ">
-          <h1 className=" text-3xl mb-8 sm:text-5xl font-bold font-display">
+        <div className=" ">
+          <h1 className=" text-3xl mb-[48px]  sm:text-5xl font-bold font-display">
             Curious Minds Wants to Know
           </h1>
           {/* faq tags  */}
-          <div className=" grid grid-cols-2  max-w-[600px] gap-5 mb-4 ">
+          <div className=" grid grid-cols-2  max-w-[600px] gap-5 ">
             <button
               className={`flex items-center space-x-3  p-3  rounded-full ${getTagClass(
                 "faq1"
@@ -209,9 +209,10 @@ const FAQs = () => {
               </span>
             </button>
           </div>
-          <div className=" flex flex-col sm:flex-row sm:flex   justify-between items-center">
+          {/*  */}
+          <div className=" flex flex-col sm:flex-row sm:flex  h-[496px]   justify-between items-end">
             {/* accordian */}
-            <div className=" w-[100%] sm:w-[60%] ">
+            <div className=" w-[100%] sm:w-[60%]  ">
               <Accordian
                 title="What is included in a basement renovation?"
                 answer=""
@@ -233,7 +234,7 @@ const FAQs = () => {
                 answer=""
               />
             </div>
-            <div className="  w-[100%] sm:w-[30%] h-[490px] ">
+            <div className="  w-[100%] sm:w-[30%] h-[496px] ">
               <img
                 src={Womansmile}
                 alt=""

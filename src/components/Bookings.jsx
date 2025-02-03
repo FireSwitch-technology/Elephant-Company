@@ -35,7 +35,7 @@ const Bookings = () => {
             className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full h-20"
           ></textarea>
         </div>
-        <button className="text-white font-display bg-blue-200 py-2 px-6 rounded-full mt-4  ">
+        <button className="text-white font-display bg-blue-200 py-2 px-6 rounded-full mt-[32px]  ">
           Request a Quote
         </button>
       </div>
