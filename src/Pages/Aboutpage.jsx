@@ -60,7 +60,7 @@ const Aboutpage = () => {
     });
   }, []);
   return (
-    <div className="bg-gray-100  ">
+    <div className="bg-gray-200  ">
       <div className="max-w-6xl mx-auto p-6 pt-44  ">
         {/*  */}
         <div className="mb-4 text-sm text-gray-600">

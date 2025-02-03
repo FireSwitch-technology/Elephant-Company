@@ -28,7 +28,8 @@ const Navbar = () => {
           <div className="flex justify-center items-center space-x-1">
             <img src={logo} alt="Logo" className="h-10" />
             <p className=" text-sm sm:text-base flex flex-col ">
-              <span> Elephant </span> <span className="ml-2">Company </span>
+              <span> Elephant </span>{" "}
+              <span className="ml-2">Company INC. </span>
             </p>
           </div>{" "}
         </NavLink>

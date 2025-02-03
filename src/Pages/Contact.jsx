@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className=" w-full h-screen m-auto bg-gray-100  ">
+    <div className=" w-full h-screen m-auto bg-gray-200  ">
       <div className=" pt-40">
         {" "}
         <div className="mb-4 text-sm text-gray-600 max-w-6xl mx-auto  p-3">

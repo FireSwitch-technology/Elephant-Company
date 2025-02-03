@@ -78,7 +78,7 @@ const Portfoliopage = () => {
   return (
     <div>
       {" "}
-      <div className=" bg-gray-100   w-full h-fit pt-32">
+      <div className=" bg-gray-200   w-full h-fit pt-32">
         <div className=" p-6 md:py-12 max-w-6xl mx-auto ">
           {/* Breadcrumb */}
           <div className="mb-4 text-sm text-gray-600">

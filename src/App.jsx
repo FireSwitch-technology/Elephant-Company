@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./Pages/Home";
 import { Routes, Route } from "react-router-dom";
-import Portfolio from "../src/Pages/Portfolio.jsx";
 import Aboutpage from "../src/Pages/Aboutpage.jsx";
 import FAQs from "../src/Pages/FAQs.jsx";
 import Contact from "./Pages/Contact.jsx";
