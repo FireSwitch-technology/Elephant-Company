@@ -12,27 +12,27 @@ const Bookings = () => {
             <input
               type="text"
               placeholder="Name"
-              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
+              className="bg-white font-normal font-display py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
             <input
               type="text"
               placeholder="Email"
-              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
+              className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
             <input
               type="text"
               placeholder="Phone"
-              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
+              className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full"
             />
             <input
               type="text"
               placeholder="Service"
-              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full "
+              className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full "
             />
           </div>
           <textarea
             placeholder="Message"
-            className="bg-white py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full h-20"
+            className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full h-20"
           ></textarea>
         </div>
         <button className="text-white font-display bg-blue-200 py-2 px-6 rounded-full mt-4  ">
