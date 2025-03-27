@@ -93,6 +93,15 @@ const Navbar = () => {
             onClick={closeMenu}
           />
           <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? activeLink : normalLink)}
+            onClick={closeMenu}
+          >
+            <p className="cursor-pointer text-base font-display font-normal">
+              Home
+            </p>
+          </NavLink>
+          <NavLink
             to="/portfolio"
             className={({ isActive }) => (isActive ? activeLink : normalLink)}
             onClick={closeMenu}

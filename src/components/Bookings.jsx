@@ -7,8 +7,8 @@ const Bookings = () => {
       {/* content */}
       <div className="flex flex-col justify-center items-center m-auto py-20 z-30 relative">
         <h1 className="font-bold font-display text-5xl mb-10">Booking</h1>
-        <div className="max-w-3xl w-full grid grid-cols-1 gap-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-10">
+        <div className="max-w-3xl w-full grid grid-cols-1 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-6 ">
             <input
               type="text"
               placeholder="Name"
@@ -35,7 +35,7 @@ const Bookings = () => {
             className="bg-white font-normal font-display  py-2 px-6 rounded-full shadow-lg text-xl text-black-100 w-full h-20"
           ></textarea>
         </div>
-        <button className="text-white font-display bg-blue-200 py-2 px-6 rounded-full mt-[32px]  ">
+        <button className="text-white font-display bg-blue-200 py-2 px-6 rounded-full mt-[16px]  ">
           Request a Quote
         </button>
       </div>

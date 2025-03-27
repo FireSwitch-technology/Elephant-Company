@@ -26,7 +26,7 @@ const FAQs = () => {
       : "fill-current text-blue-200";
   };
   return (
-    <div className=" w-full h-fit m-auto bg-gray-200  ">
+    <div className=" w-full h-full m-auto bg-gray-200  ">
       <div className=" pt-40 max-w-6xl mx-auto  p-3">
         {/*  */}
         <div className="mb-[48px] text-sm text-gray-600">
@@ -210,7 +210,7 @@ const FAQs = () => {
             </button>
           </div>
           {/*  */}
-          <div className=" flex flex-col sm:flex-row sm:flex  h-[496px]   justify-between items-end">
+          <div className=" flex flex-col sm:flex-row sm:flex py-8 gap-12 justify-between items-end">
             {/* accordian */}
             <div className=" w-[100%] sm:w-[60%]  ">
               <Accordian
