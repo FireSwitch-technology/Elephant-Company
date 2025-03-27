@@ -4,6 +4,7 @@ import vector2 from "../assets/vector2.png";
 import vector3 from "../assets/vector3.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import heroBg from "../assets/herobg.jpeg";
 
 const Hero = () => {
   useEffect(() => {
@@ -19,14 +20,10 @@ const Hero = () => {
     <div className=" w-full h-fit bg-gray-200 flex items-center justify-center flex-col    ">
       <div className="relative w-full flex items-center justify-center flex-col  ">
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0  bg-gradient-to-b from-black/20 to-black/60"></div>
         <div className="  w-full h-[690px]   ">
           {/* background img */}
-          <img
-            src="https://s3-alpha-sig.figma.com/img/7084/7b04/796fe7a8e3775a09d11dd612d1f4c04a?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BhZczWaadiZ6jNvs9GmztIFWyqbxanuWYAsc8Vos0kqVQkLgwu66BEL2WVlP-K1I1FYin5Xqk5sJg6PmgF1GdZexfUhOilQZ6-3zutV~c6TLdZf1xvD~IoDZKn2NXS4ieZldbjujTN9PvXxu0xTlTqxPVwjSJah~itT7n9f70ohTYlKzYudJgU19zxsVudhvhy7DAXIgeIRos2Qdi7hcmXtoZn1ZNIDo97Xpjh-DrdatFO3sxYH9vHc2pciKr9PwqVp8iYWW5gNmgFgANyC3FuFauJlzKW07LHfjc5j-EdoPFMCVKusuq1PXzAlGDjLSD6ZSCt17nrJuk8ToYBlPXg__"
-            alt=""
-            className=" w-full h-full object-cover"
-          />
+          <img src={heroBg} alt="" className=" w-full h-full object-cover" />
         </div>
 
         {/* content */}
