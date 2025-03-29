@@ -16,7 +16,7 @@ const MapComp = () => {
           <a href="https://www.gps.ie/">gps vehicle tracker</a>
         </iframe>
 
-        <div className=" absolute z-10 bottom-14 left-14 bg-white max-w-xl rounded-lg p-14">
+        <div className=" absolute z-10 bottom-14  left-14 bg-white max-w-xl rounded-lg p-14">
           <h1 className=" text-5xl font-bold font-display mb-3 ">Contact Us</h1>
           <p className=" text-xl font-normal mb-3 ">Phone: (647) 648-1808</p>
           <p className=" text-xl font-normal mb-3 ">
