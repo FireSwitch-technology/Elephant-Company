@@ -11,9 +11,9 @@ const Bookings = () => {
   });
 
   const API_KEY = "reni_prod_Owc6njvOv9WL5U33V1C_34hjbhb";
-  // const API_URL = "https://api.reni.ng/getLists.php";
-  const API_URL =
-    "https://cors-anywhere.herokuapp.com/https://api.reni.ng/reni-mail/v1/getLists.php";
+  const API_URL = "https://api.reni.ng/reni-mail/v1/send";
+  // const API_URL =
+  //   "https://cors-anywhere.herokuapp.com/https://api.reni.ng ";
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
