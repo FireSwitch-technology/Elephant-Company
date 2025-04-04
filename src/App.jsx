@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact.jsx";
 import Navbar from "../src/components/Navbar.jsx";
 import Portfoliopage from "./Pages/Portfoliopage.jsx";
 import Footer from "./Pages/Footer.jsx";
+import Bookings from "./components/Bookings.jsx";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/aboutpage" element={<Aboutpage />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/booking" element={<Bookings />} />
       </Routes>
       <Footer />
     </div>

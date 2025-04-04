@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 import elephant from "../assets/elephant2.svg";
 
 const Bookings = () => {
@@ -10,21 +11,36 @@ const Bookings = () => {
     message: "",
   });
 
-  const API_KEY = "reni_prod_Owc6njvOv9WL5U33V1C_34hjbhb";
-  const API_URL = "https://api.reni.ng/reni-mail/v1/send";
-  // const API_URL =
-  //   "https://cors-anywhere.herokuapp.com/https://api.reni.ng ";
+  const [loading, setLoading] = useState(false); // Loading state
+
+  const API_KEY = "reni_prod_Owc6njvOv9WL5U33V1C_34hjbhb_kbkjkwe";
+  const API_URL = "https://api.reni.ng/reni-mail/v1/sendSingleMail";
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const payload = {
-      to: "oyewoleoluwatimilehin2@gmail.com",
+      email: "elephantcompany@gmail.com",
       subject: "New Booking Request",
-      body: `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\nMessage: ${formData.message}`,
+      body: `
+      <div style="font-family: Arial, sans-serif; color: #333; padding: 20px; line-height: 1.6;">
+        <h2 style="color: #0056b3;">📌 New Booking Request</h2>
+        <p><strong>Name:</strong> ${formData.name}</p>
+        <p><strong>Email:</strong> ${formData.email}</p>
+        <p><strong>Phone:</strong> ${formData.phone}</p>
+        <p><strong>Service:</strong> ${formData.service}</p>
+        <p><strong>Message:</strong></p>
+        <div style="background: #f4f4f4; padding: 10px; border-radius: 5px;">
+          <p>${formData.message}</p>
+        </div>
+        <br>
+        
+    `,
     };
 
     try {
@@ -38,7 +54,7 @@ const Bookings = () => {
       });
 
       if (response.ok) {
-        alert("Booking request sent successfully!");
+        toast.success("Booking request sent successfully!");
         setFormData({
           name: "",
           email: "",
@@ -47,23 +63,26 @@ const Bookings = () => {
           message: "",
         });
       } else {
-        alert("Failed to send booking request.");
+        toast.error("Failed to send booking request.");
       }
     } catch (error) {
       console.error("Error sending request:", error);
-      alert("Error sending request.");
+      toast.error("Error sending request.");
+    } finally {
+      setLoading(false); // Reset loading state after request is completed
     }
   };
 
   return (
     <div className="bg-gray-200 pt-12 px-4 h-screen relative">
+      <Toaster position="top-right" reverseOrder={false} />
       <div className="flex flex-col justify-center items-center m-auto py-20 z-30 relative">
         <h1 className="font-bold font-display text-5xl mb-10">Booking</h1>
         <form
           onSubmit={handleSubmit}
-          className="max-w-3xl w-full grid grid-cols-1 gap-6"
+          className="max-w-3xl w-full flex flex-col items-center justify-center gap-6  "
         >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
             <input
               type="text"
               name="name"
@@ -79,7 +98,7 @@ const Bookings = () => {
               placeholder="Email"
               value={formData.email}
               onChange={handleChange}
-              className=" bg-white py-2 px-6 rounded-full shadow-lg text-xl w-full"
+              className="bg-white py-2 px-6 rounded-full shadow-lg text-xl w-full"
               required
             />
             <input
@@ -111,9 +130,14 @@ const Bookings = () => {
           ></textarea>
           <button
             type="submit"
-            className="text-white bg-blue-500 py-2 px-6 rounded-full mt-4"
+            className={`text-white max-w-[200px] py-2 px-6 rounded-full mt-4 transition-all ${
+              loading
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-blue-500 hover:bg-blue-600"
+            }`}
+            disabled={loading}
           >
-            Request a Quote
+            {loading ? "Sending..." : "Request a Quote"}
           </button>
         </form>
       </div>

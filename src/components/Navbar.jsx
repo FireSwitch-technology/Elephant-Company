@@ -68,9 +68,12 @@ const Navbar = () => {
             </p>
           </NavLink>
         </div>
-        <button className="p-3 bg-blue-200   hidden sm:flex text-white rounded-full">
-          Get a Quote
-        </button>
+        <NavLink to="/booking">
+          <button className="p-3 bg-blue-200   hidden sm:flex text-white rounded-full">
+            Get a Quote
+          </button>
+        </NavLink>
+
         {/* toggleMenu */}
         <div className="flex md:hidden" onClick={toggleMenu}>
           {isOpen ? (
